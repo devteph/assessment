@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container-sm {
+      max-width: 975px;
+      padding: 0 20px;
+      margin: 0 auto;
+    }
+
+    .container-lg {
+        max-width: 1200px;
+        padding: 0 20px;
+        margin: 0 auto;
+      }
+  }

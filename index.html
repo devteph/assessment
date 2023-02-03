@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/css/styles.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+    <header class="bg-blue1 w-full">
+        <!--topbar-->
+        <div id="topbar" class="bg-sky4 py-5">
+            <div class="container-sm">
+                <div class="flex justify-between items-center">
+                    <p class="text-[13px] text-white">
+                        USD Agencia: Compra Q.7.63 / Venta Q.7.93
+                    </p>
+                    <p class="text-[13px] text-white">
+                        USD En línea: Compra Q.7.65 / Venta Q.7.91
+                    </p>
+                    <p class="text-[13px] text-white">
+                        SWIFT: INDLGTGC
+                    </p>
+                    <form action="flex items-center">
+                        <select class="bg-sky4 text-[13px] text-white outline-none cursor-pointer" name="country" id="country">
+                            <option value="1">Guatemala</option>
+                            <option value="2">El Salvador</option>
+                            <option value="3">Honduras</option>
+                            <option value="4">Panama</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--end topbar-->
+        <!--middle bar-->
+        <div class="w-full flex justify-end py-5 px-10 border-b border-white/20">
+            <nav class="flex justify-between">
+                <ul class="flex gap-x-4">
+                    <li>
+                        <a class="text-white text-[13px]" href="#">
+                            Acerca de Bi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white text-[13px]" href="#">
+                            Trabaja con nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white text-[13px]" href="#">
+                            Noticias
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white text-[13px]" href="#">
+                            Agencias Bi 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white text-[13px]" href="#">
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--end middle bar-->
+        <!--main menu-->
+        <div id="main-menu" class="flex justify-between items-center px-10 h-[100px]">
+            <a class="flex items-center" href="#">
+                <img class="w-full h-auto" src="src/images/logo-lg.png" alt="">
+            </a>
+            <div class="flex items-center gap-x-5">
+                <nav>
+                    <ul class="flex items-center gap-x-5">
+                        <li>
+                            <a class="text-[16px] text-white hover:text-yellow transition-all duration-300 " href="banca-personal.html">
+                                Banca Personal
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[16px] text-white hover:text-yellow transition-all duration-300 " href="banca-empresarial.html">
+                                Banca Empresarial
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[16px] text-white hover:text-yellow transition-all duration-300 " href="banca-corporativa.html">
+                                Banca Corporativa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[16px] text-white hover:text-yellow transition-all duration-300 " href="banca-fiduciaria">
+                                Banca Fiduciaria
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[16px] text-white hover:text-yellow transition-all duration-300 " href="banca-electronica.html">
+                                Banca Electrónica
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="flex justify-center items-center">
+                    <input type="search" name="" id="">
+                    <i class='text-[25px] text-white bx bx-search'></i>
+                </form>
+            </div>
+        </div>
+        <!--end main menu-->
+    </header>
+    <!--end header-->
+    <!--hero-->
+    <section class="hero">
+        <div class="">
+            <img src="" alt="">
+        </div>
+    </section> 
+    <!--end hero--> 
+     <!--end hero--> 
+    <section class="py-10 lg:py-20">
+        <div class="container-lg">
+            <div class="grid grid-col-1 lg:grid-cols-3 gap-x-5">
+                <div class="">
+                    <div class="border border-blue1 py-5 px-10 flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                        <div class="h-[90px] w-[90px] flex justify-center">
+                            <img class="h-full w-auto" src="src/images/icons/icon-1.png" alt="">
+                        </div>
+                        <h4 class="text-[18px] text-blue1 font-bold">
+                            Bi en Línea
+                        </h4>
+                        <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                            Realiza transferencias, haz pago de servicios y más
+                        </p>
+                        <div class="bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                            <a class="text-[17px] text-white font-bold" href="#">
+                                Ingresa Aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="border border-blue1 py-5 px-10 flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                        <div class="h-[90px] w-[90px] flex justify-center">
+                            <img class="h-full w-auto" src="src/images/icons/icon-2.png" alt="">
+                        </div>
+                        <h4 class="text-[18px] text-blue1 font-bold">
+                            Bi Banking
+                        </h4>
+                        <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                            Banca Empresarial fácil y segura
+                        </p>
+                        <div class="bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                            <a class="text-[17px] text-white font-bold" href="#">
+                                Ingresa Aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="border border-blue1 py-5 px-10 flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                        <div class="h-[90px] w-[90px] flex justify-center">
+                            <img class="h-full w-auto" src="src/images/icons/icon-3.png" alt="">
+                        </div>
+                        <h4 class="text-[18px] text-blue1 font-bold">
+                            SAT
+                        </h4>
+                        <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                            Realiza pago de impuestos y consulta declaraciones
+                        </p>
+                        <div class="bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                            <a class="text-[17px] text-white font-bold" href="#">
+                                Ingresa Aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Columns-->
+    <section>
+        <div class="bg-sky2 py-5 lg:py-10">
+            <h3 class="text-[48px] text-white">
+                En Banco Industrial
+            </h3>
+            <p class="text-white">
+                La seguridad de nuestros clientes es muy importante
+            </p>
+            <div class="flex items-end">
+                <p class="text-white">
+                    Conoce los Tips de Seguridad
+                </p>
+                <div class="bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                    <a class="text-[17px] text-white font-bold" href="#">
+                        Ingresa Aquí
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <section class="pb-10 lg:pb-20">
+        <div class="grid grid-col-1 lg:grid-cols-4">
+            <div class="">
+                <div class="p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto object-cover" src="src/images/icons/icon-casa.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        ¿Quieres una casa?
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        o un apartamento
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Encuéntrala aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="border border-orange p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-seguro.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        ¿Necesitas un seguro?
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        confiable, fácil y rápido
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Solicítalo aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-auto.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Estrena tu auto nuevo
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        CrediAuto en Línea
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Encuéntralo Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="border border-orange p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-productos-en-linea.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Productos en Línea
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        servicios electrónicos
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Solicítalos Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="border border-sky3 p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-prestamo.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Calcula tu préstamo
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        y disfruta los diferentes beneficios
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-medios.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Medios y Prensa
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        conoce nuestras más recientes noticias
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="border border-sky3 p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-cuenta.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Apertura de cuenta
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        monetaria o de ahorro
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="p-[50px] flex flex-col items-center gap-y-5 rounded-tl-[40px] rounded-br-[40px]">
+                    <div class="h-[90px] w-[90px] flex justify-center">
+                        <img class="h-auto w-auto" src="src/images/icons/icon-solicita-productos.png" alt="">
+                    </div>
+                    <h4 class="text-[18px] text-blue1 font-bold">
+                        Solicita productos
+                    </h4>
+                    <p class="text-[15px] text-gray font-medium text-center max-w-[268px] lg:min-h-[50px]">
+                        y servicios en línea
+                    </p>
+                    <div class="min-w-[166px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[17px] text-white font-bold" href="#">
+                            Aquí
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <!--innovación-->
+    <section class="bg-gray2 py-5 lg:py-10">
+        <div class="flex w-full">
+            <div class="w-1/2 flex items-center">
+                <img src="src/images/innovacion.png" alt="">
+            </div>
+            <div class="flex flex-col w-1/2 items-center">
+                <h2 class="text-[45px] text-blue1 font-bold">
+                    Innovación Trascendental
+                </h2>
+                <div class="slider">
+                    <div class="flex flex-col items-center gap-y-5 py-10">
+                        <p class="text-[45px] text-blue1 font-bold">
+                            2018
+                        </p>
+                        <div class="w-[90px]">
+                            <img class="w-full h-auto" src="src/images/icons/icon-reconocimiento-facial.png" alt="">
+                        </div>
+                        <p class="text-[18px] text-blue1 font-bold">
+                            Reconocimiento facial
+                        </p>
+                        <p class="text-[15px] text-gray font-medium">
+                            Primer banco de Guatemala y la región en utilizar reconocimiento facial para ingresar a banca en línea.
+                        </p>
+                    </div>
+                </div>
+                <div class="min-w-[245px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer py-5 px-8 rounded-tl-[16px] rounded-br-[16px]">
+                    <a class="text-[17px] text-white font-bold" href="#">
+                        Conoce nuestra historia
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--end innovación-->
+     <!--bienestar-financiero-->
+     <section class="relative">
+         <img class="z-10 w-full h-auto" src="src/images/banner-bienestar-financiero.jpeg" alt="">
+         <div class="absolute top-0 left-0 w-full flex justify-end z-30">
+                <div class="w-1/2 h-full flex flex-col justify-center pr-5 gap-y-5">
+                    <h3 class="text-[64px] text-white bg-yellow2 text-center  rounded-tl-[40px] rounded-br-[40px]">
+                        Bienestar Financiero
+                    </h3>
+                    <p class="text-[29px] text-blue1 max-w-[555px]">
+                        Para nosotros es importante apoyar tu desarrollo, crecimiento y bienestar.
+                    </p>
+                    <p class="text-[19px] text-blue1 max-w-[442px]">
+                        Conoce el contenido de valor que tenemos para desarrolar tu salud financiera.
+                    </p>
+                    <div class="h-[55px] items-center inline-flex px-[35px] text-center bg-blue2 hover:bg-sky1 transition-all duration-200 cursor-pointer rounded-tl-[16px] rounded-br-[16px]">
+                        <a class="text-[23px] text-white font-bold" href="#">
+                            Conoce más
+                        </a>
+                    </div>
+                </div>
+         </div>
+     </section>
+     <!--end-bienestar-financiero-->
+     <!--social-media-->
+     <section class="bg-sky3 py-10">
+         <div class="flex justify-between">
+            <div class="">
+                <h3 class="text-[64px] text-white bg-blue1 px-[25px] text-center  rounded-tl-[40px] rounded-br-[40px]">
+                    Síguenos
+                </h3>
+                <p class="text-[32px] text-white pl-[25px]">
+                    en redes sociales
+                </p>
+            </div>
+            <div class="flex gap-x-[50px]">
+                <div class="w-[58px] h-[58px] rounded-full bg-white flex items-center justify-center">
+                    <i class='text-[40px] text-sky3 bx bxl-facebook' ></i>
+                </div>
+                <div class="w-[58px] h-[58px] rounded-full bg-white flex items-center justify-center">
+                    <i class='text-[40px] text-sky3 bx bxl-instagram' ></i>
+                </div>
+                <div class="w-[58px] h-[58px] rounded-full bg-white flex items-center justify-center">
+                    <i class='text-[40px] text-sky3 bx bxl-twitter' ></i>
+                </div>
+                <div class="w-[58px] h-[58px] rounded-full bg-white flex items-center justify-center">
+                    <i class='text-[40px] text-sky3 bx bxl-youtube' ></i>
+                </div>
+            <div class="">
+                <img src="src/images/mujer-redes.png" alt="">
+            </div>
+         </div>
+     </section>
+     <!--end-social-media-->
+     <!--footer-->
+     <footer class="bg-blue1 py-5">
+         <div class="container-lg">
+             <div class="grid grid-cols-2 lg:grid-cols-12 gap-x-5">
+                <div class="col-span-2">
+                    <h3 class="text-[20px] text-white font-bold">
+                        Acerca del Banco
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Sobre el Banco
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Información Financiera
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Calificaciones y Reconocimientos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Medios y Prensa
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Gobierno Corporativo
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Inversionistas
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-2">
+                    <h3 class="text-[20px] text-white font-bold">
+                        Banca Personal
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cuentas Monetarias
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cuenta de Ahorro
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Inversión
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Tarjetas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Créditos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Planilla Bi
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Servicios Internacionales
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Seguros
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Otros Seguros y Beneficios
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Programas de Lealtad y Beneficios
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Microcréditos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cargos y Comisiones
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Calculadoras
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-2">
+                    <h3 class="text-[20px] text-white font-bold">
+                        Banca Personal
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cuentas Monetarias
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cuenta de Ahorro
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Inversión
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Tarjetas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Servicios Internacionales
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Seguros
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Otros Seguros y Beneficios
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Cargos y Comisiones
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Créditos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Descargas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Soluciones de Pago
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Factura Electrónica en Líneas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Calculadoras
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Banca PYMES
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-2">
+                    <h3 class="text-[20px] text-white font-bold">
+                        Banca Electrónica
+                    </h3>
+                    <ul>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Bi en Línea
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Bi Banking
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Bi Móvil
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Bi Impuestos
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Tutoriales
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Descargas
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200" href="#">
+                                Tips de Seguridad
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-span-2">
+                    <h3 class="text-[20px] text-white font-bold">
+                        Contacto
+                    </h3>
+                    <p class="text-[14px] text-white font-medium hover:text-sky5 transition-all duration-200">
+                        Dirección:
+                        Vía 5 5-35 Zona 4
+                        Teléfono:
+                        2345-4956
+                        Correo:
+                        Servicio@bi.com.gt
+                    </p>
+                </div>
+                <div class="col-span-2">
+                    <div class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3">
+                        <a href="https://www.facebook.com/BancoIndustrial/">
+                            <i class='text-[40px] text-white hover:text-blue3 transition all duration-500 bx bxl-facebook' ></i>
+                        </a>
+                        <a href="https://twitter.com/bancoindustrial">
+                            <i class='text-[40px] text-white hover:text-blue3 transition all duration-500 bx bxl-twitter' ></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=50224116000&text&app_absent=0">
+                            <i class='text-[40px] text-white hover:text-blue3 transition all duration-500 bx bxl-whatsapp' ></i>
+                        </a>
+                        <a href="https://www.instagram.com/bancoindustrial/?hl=es-la">
+                            <i class='text-[40px] text-white hover:text-blue3 transition all duration-500 bx bxl-twitter' ></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/CorporacionBI">
+                            <i class='text-[40px] text-white hover:text-blue3 transition all duration-500 bx bxl-youtube' ></i>
+                        </a>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+     </footer>
+     <!--end-footer-->
+</body>
+</html>
